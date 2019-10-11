@@ -37,9 +37,6 @@ export default function Backup() {
           <h2>PAGINA DEFAULT</h2>
           <Form className="form" onSubmit={handleSubmit} schema={schema} >
             <Input name="Servidor" className="servidor" placeholder="Servidor" />
-
-            <Input id="Rede8" name="Rede8" className="checkbox" type="checkbox" placeholder="Marque essa opção caso seja Rede8 ou superior" />
-            <a href="1" >Marque essa opção caso o servidor seja rede 08 ou superior</a>
             <button className="confirm" type="submit">Consultar</button>
           </Form>
         </Container>

@@ -147,7 +147,7 @@ export default createGlobalStyle`
     font-weight: 700 !important;
     letter-spacing: 3px;
     background: none;
-    -webkit-box-shadow: 0px 5px 50px -7px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 50px -7px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0px 10px 40px -5px rgba(0, 0, 0, 0.26);
     transition: all 0.3s ease 0s;
   }
