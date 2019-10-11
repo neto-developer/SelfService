@@ -62,15 +62,7 @@ export default function serverCreate() {
           <Link to="CriarServidorSepado">
             <button>Servidor Separado</button>
           </Link>
-          <Link to="Teste">
-            <button>Teste</button>
-          </Link>
-          <Link to="Teste">
-            <button>Teste</button>
-          </Link>
-          <Link to="Teste">
-            <button>Teste</button>
-          </Link>
+
         </li>
 
         <h2>CRIAR SERVIDOR SEPARADO</h2>
