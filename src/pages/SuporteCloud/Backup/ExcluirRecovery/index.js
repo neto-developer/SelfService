@@ -29,18 +29,13 @@ export default function Backup() {
       <Can checkPermission={"SuporteCloud"}>
         <Container>
           <li className="top-menu-list">
-            <Link to="/">
-              <button>TESTE</button>
-            </Link>
-
           </li>
           <h2>EXCLUIR INSTANT RECOVERY</h2>
           <Form className="form" onSubmit={handleSubmit} schema={schema} >
-            <Input name="Servidor" className="servidor" placeholder="Servidor" />
-
-            <Input id="Rede8" name="Rede8" className="checkbox" type="checkbox" placeholder="Marque essa opção caso seja Rede8 ou superior" />
-            <a href="1" >Marque essa opção caso o servidor seja rede 08 ou superior</a>
-            <button className="confirm" type="submit">Consultar</button>
+            <Input name="Codigo" placeholder="Codigo" />
+            <Input name="Atendimento" placeholder="Atendimento" />
+            <Input name="Servidor" placeholder="Servidor" />
+            <button className="confirm" type="submit">Excluir</button>
           </Form>
         </Container>
       </Can>
