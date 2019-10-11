@@ -71,7 +71,7 @@ export default function Backup() {
             <Link to="InstantRecovery">
               <button>INSTANT RECOVERY</button>
             </Link>
-            <Link to="Excluir_Instant_Recovery">
+            <Link to="ExcluirRecovery">
               <button>EXCLUIR INSTANT RECOVERY</button>
             </Link>
             <Link to="SnapShot">

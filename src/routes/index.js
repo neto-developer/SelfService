@@ -13,8 +13,12 @@ import Profile from '~/pages/Profile/'
 import Dashboard_Admin from '~/pages/Admin/Dashboard/'
 
 import Dashboard_SuporteCloud from '~/pages/SuporteCloud/Dashboard/'
+
 import Backup_SuporteCloud from '~/pages/SuporteCloud/Backup/'
 import InstantRecovery_SuporteCloud from '~/pages/SuporteCloud/Backup/InstantRecovery'
+import ExcluirRecovery_SuporteCloud from '~/pages/SuporteCloud/Backup/ExcluirRecovery'
+
+
 import Criacao_SuporteCloud from '~/pages/SuporteCloud/Criacao/'
 import ServidorSeparado_SuporteCloud from '~/pages/SuporteCloud/Criacao/ServidorSeparado'
 
@@ -40,6 +44,7 @@ export default function Routes() {
 
       <Route path="/SuporteCloud/Backup" component={Backup_SuporteCloud} isPrivate />
       <Route path="/SuporteCloud/InstantRecovery" component={InstantRecovery_SuporteCloud} isPrivate />
+      <Route path="/SuporteCloud/ExcluirRecovery" component={ExcluirRecovery_SuporteCloud} isPrivate />
 
       <Route path="/SuporteCloud/Criacao" component={Criacao_SuporteCloud} isPrivate />
       <Route path="/SuporteCloud/CriarServidorSepado" component={ServidorSeparado_SuporteCloud} isPrivate />
