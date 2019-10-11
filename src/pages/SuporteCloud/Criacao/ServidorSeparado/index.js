@@ -100,18 +100,7 @@ export default function serverCreate() {
       <Container >
 
         <li className="top-menu-list">
-          <Link to="Teste">
-            <button>Teste</button>
-          </Link>
-          <Link to="Teste">
-            <button>Teste</button>
-          </Link>
-          <Link to="Teste">
-            <button>Teste</button>
-          </Link>
-          <Link to="Teste">
-            <button>Teste</button>
-          </Link>
+
         </li>
 
         <h2>CRIAR SERVIDOR SEPARADO</h2>
