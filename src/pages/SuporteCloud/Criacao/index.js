@@ -59,7 +59,7 @@ export default function serverCreate() {
       <Container >
 
         <li className="top-menu-list">
-          <Link to="Teste">
+          <Link to="Servidor Separado">
             <button>Teste</button>
           </Link>
           <Link to="Teste">
